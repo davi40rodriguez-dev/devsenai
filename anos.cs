@@ -7,3 +7,5 @@ dia = double.Parse(ReadLine());
 anos = dia / 365;
 meses = (dia % 365) / 30;
 dias = (dia % 365) % 30;
+//saída de dados
+WriteLine($"O número de anos é: {anos}, o número de meses é: {meses} e o número de dias é: {dias}");    
