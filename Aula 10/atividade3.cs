@@ -24,7 +24,6 @@ using static System.Console;
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("\nSaindo do aplicativo...");
-                Beep(1000, 1000);
                 break;
             }
 
@@ -72,6 +71,6 @@ using static System.Console;
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Aplicativo encerrado.");
         Console.ResetColor();
-        Beep(1000, 500);
+       
     }
 }
