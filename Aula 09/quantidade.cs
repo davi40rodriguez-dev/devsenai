@@ -9,7 +9,7 @@ static void Total(int qtd, double valor)
 //----Declração de variaveis------
 try{
     int codigo, quantidade;
-    //----Entrada de dados--------hiuhiuhjhiuhihui
+    //----Entrada de dados--------
     Write("Digite o código do produto: ");
     codigo = int.Parse(ReadLine());
     Write("Digite a quantidade de produto: ");
